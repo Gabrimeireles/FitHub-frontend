@@ -1,6 +1,7 @@
-# Welcome to your Expo app 👋
+# FitQuest – React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains a minimal [Expo](https://expo.dev) project written in TypeScript.
+It provides the initial scaffold for the **FitQuest** mobile app.
 
 ## Get started
 
@@ -13,8 +14,12 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-   npx expo start
-   ```
+  npx expo start
+  ```
+
+### Environment variables
+
+Create a `.env` file at the project root and specify `API_BASE_URL` to configure backend access.
 
 In the output, you'll find options to open the app in a
 
